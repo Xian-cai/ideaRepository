@@ -19,4 +19,8 @@ public interface UserService {
 
     int updateUser(User user);
 
+    //增加了根据id查询用户的方法
+
+    User getUserById(Integer id);
+
 }
